@@ -41,4 +41,3 @@ df.drop('Game Date', axis='columns', inplace=True)
 df.drop('Opp', axis='columns', inplace=True)
 
 df.to_csv("BatterMatchupData.csv")
-#**********END TEST**************************
